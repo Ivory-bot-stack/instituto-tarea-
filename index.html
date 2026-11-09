@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0710">
+<title>Reconciliación e Intercesión · Instituto al Mundo</title>
+<meta name="description" content="Tarea de Reconciliación e Intercesión — Instituto de Liderazgo al Mundo.">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Manrope:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Splash -->
+<div class="splash" id="splash" aria-hidden="true">
+  <img src="logo.png" alt="" class="splash-logo">
+  <h1>Instituto al Mundo</h1>
+  <p>Brandon Lacayo</p>
+</div>
+
+<!-- Fondo cinematográfico (fijo) -->
+<div class="bg" aria-hidden="true">
+  <div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+  <canvas id="fx"></canvas>
+  <div class="spot" id="spot"></div>
+  <div class="grain"></div>
+</div>
+<div class="cursor" id="cursor" aria-hidden="true"></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- Contador de textos (aparece en Intercesión) -->
+<div class="counter" id="counter" aria-live="polite"><b id="cur">01</b> / 05</div>
+
+<nav class="nav" aria-label="Principal">
+  <a href="#inicio" class="on"><i>◉</i><span>Inicio</span></a>
+  <a href="#reconciliacion"><i>01</i><span>Reconciliación</span></a>
+  <a href="#intercesion"><i>02</i><span>Intercesión</span></a>
+  <a href="#reflexion"><i>03</i><span>Reflexión</span></a>
+  <a href="#conclusion"><i>04</i><span>Conclusión</span></a>
+</nav>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <img src="logo.png" alt="Logo Instituto al Mundo" class="hero-logo rv">
+  <p class="kicker rv">Instituto de Liderazgo al Mundo</p>
+  <h2 class="title" id="heroTitle" aria-label="Reconciliación e Intercesión">
+    <span class="w">Reconciliación</span> <span class="w">e</span> <span class="w">Intercesión</span>
+  </h2>
+  <p class="sub rv">Tarea 1 y Tarea 2 · Clase de nuestra Pastora</p>
+  <div class="meta rv"><span>Brandon Lacayo</span><span class="dot"></span><span>9 de noviembre de 2026</span></div>
+  <a href="#reconciliacion" class="btn mag rv">Comenzar</a>
+  <div class="scrollhint" aria-hidden="true"></div>
+</section>
+
+<!-- 01 RECONCILIACIÓN -->
+<section id="reconciliacion" class="sec">
+  <p class="num rv">01 — Reconciliación</p>
+  <blockquote class="verse-top rv">“Si usted se siente ofendido con alguien, vaya y reconcíliese con esa persona.”</blockquote>
+  <div class="glass card3d rv">
+    <p>Actualmente me encuentro bien con las personas a mi alrededor y no tengo una ofensa o conflicto pendiente que requiera una reconciliación específica. Por eso no quiero inventar una historia: prefiero responder con honestidad desde donde estoy hoy.</p>
+    <p>Sin embargo, esta enseñanza me recuerda que la reconciliación no solamente se practica cuando existe un conflicto. También implica mantener un corazón dispuesto a perdonar, reconocer mis errores, pedir perdón cuando sea necesario y procurar vivir en paz con los demás.</p>
+    <p>No lo veo como una tarea que no me corresponde, sino como una actitud que cuido desde ahora para que, el día que haga falta, mi corazón ya esté preparado.</p>
+  </div>
+  <ol class="path rv" aria-label="Camino de la reconciliación">
+    <li><b>Paz</b><small>Estoy bien con los demás</small></li>
+    <li><b>Reflexión</b><small>Examino mi corazón</small></li>
+    <li><b>Perdón</b><small>Dispuesto a dar y pedir</small></li>
+    <li><b>Reconciliación</b><small>Busco la paz siempre</small></li>
+  </ol>
+</section>
+
+<!-- 02 INTERCESIÓN -->
+<section id="intercesion" class="sec">
+  <p class="num rv">02 — Intercesión</p>
+  <h2 class="h2 rv">Orar por otros es ponerse en la brecha</h2>
+  <p class="lead rv">Interceder es hablar con Dios a favor de alguien más. Investigué cinco textos bíblicos (Reina-Valera 1960) que muestran cómo la intercesión aparece desde Abraham hasta Jesús, y qué puedo aprender de cada uno.</p>
+
+  <article class="verse glass" data-n="1">
+    <div class="vn">01</div>
+    <h3 class="ref">Génesis 18:32</h3>
+    <p class="ref-sub">Génesis · capítulo 18 · versículo 32</p>
+    <blockquote class="text">“Y volvió a decir: No se enoje ahora mi Señor, si hablare solamente esta vez: quizá se hallarán allí diez. No la destruiré, respondió, por amor de los diez.”</blockquote>
+    <div class="blk"><h4>¿Qué enseña?</h4><p>Abraham se acerca a Dios para pedir misericordia por Sodoma, donde vivía su sobrino Lot. Insiste con respeto y Dios lo escucha. Enseña que la intercesión nace de un corazón que se preocupa por otros.</p></div>
+    <div class="blk"><h4>Mi reflexión</h4><p>Me llama la atención que Abraham no pedía por sí mismo. Pidió por personas que ni siquiera conocía. Me hace pensar que puedo orar incluso por quienes no son cercanos a mí.</p></div>
+    <div class="blk"><h4>Qué aplico a mi vida</h4><p>Orar con respeto y perseverancia por mi familia, mis amigos y mi ciudad, sin cansarme.</p></div>
+  </article>
+
+  <article class="verse glass alt" data-n="2">
+    <div class="vn">02</div>
+    <h3 class="ref">Lucas 23:34</h3>
+    <p class="ref-sub">Lucas · capítulo 23 · versículo 34</p>
+    <blockquote class="text">“Y Jesús decía: Padre, perdónalos, porque no saben lo que hacen.”</blockquote>
+    <div class="blk"><h4>¿Qué enseña?</h4><p>Desde la cruz, Jesús intercede por quienes lo estaban crucificando. Une el perdón con la oración: pide a Dios por quienes le hacían daño.</p></div>
+    <div class="blk"><h4>Mi reflexión</h4><p>Este texto conecta directamente con la Tarea 1. Si Jesús oró por quienes lo lastimaron, yo no tengo excusa para guardar rencor. Perdonar y orar van de la mano.</p></div>
+    <div class="blk"><h4>Qué aplico a mi vida</h4><p>Si alguna vez alguien me ofende, orar por esa persona antes de reaccionar.</p></div>
+  </article>
+
+  <article class="verse glass" data-n="3">
+    <div class="vn">03</div>
+    <h3 class="ref">Romanos 8:34</h3>
+    <p class="ref-sub">Romanos · capítulo 8 · versículo 34</p>
+    <blockquote class="text">“¿Quién es el que condenará? Cristo es el que murió; más aun, el que también resucitó, el que además está a la diestra de Dios, el que también intercede por nosotros.”</blockquote>
+    <div class="blk"><h4>¿Qué enseña?</h4><p>Cristo, resucitado y a la diestra de Dios, intercede por nosotros. Nuestra seguridad delante de Dios descansa en lo que Él hizo y sigue haciendo.</p></div>
+    <div class="blk"><h4>Mi reflexión</h4><p>Saber que Jesús intercede por mí me da paz. No dependo de ser perfecto, y eso me anima a interceder por otros con la misma gracia con la que Él me trata.</p></div>
+    <div class="blk"><h4>Qué aplico a mi vida</h4><p>Confiar en Su intercesión cuando falle, y no condenar a otros.</p></div>
+  </article>
+
+  <article class="verse glass alt" data-n="4">
+    <div class="vn">04</div>
+    <h3 class="ref">1 Timoteo 2:1</h3>
+    <p class="ref-sub">1 Timoteo · capítulo 2 · versículo 1</p>
+    <blockquote class="text">“Exhorto ante todo a que se hagan rogativas, oraciones, peticiones y acciones de gracias, por todos los hombres.”</blockquote>
+    <div class="blk"><h4>¿Qué enseña?</h4><p>Pablo pone la oración “ante todo” y dice que debe hacerse por todos. La intercesión no es opcional ni un extra: es una prioridad en la vida de la iglesia.</p></div>
+    <div class="blk"><h4>Mi reflexión</h4><p>La palabra “todos” me desafía, porque incluye a quienes pienso distinto o me cuesta entender. Interceder me ayuda a mirarlos con compasión.</p></div>
+    <div class="blk"><h4>Qué aplico a mi vida</h4><p>Hacer una lista de personas y orar por ellas con regularidad, también dando gracias.</p></div>
+  </article>
+
+  <article class="verse glass" data-n="5">
+    <div class="vn">05</div>
+    <h3 class="ref">Santiago 5:16</h3>
+    <p class="ref-sub">Santiago · capítulo 5 · versículo 16</p>
+    <blockquote class="text">“Confesaos vuestras ofensas unos a otros, y orad unos por otros, para que seáis sanados. La oración eficaz del justo puede mucho.”</blockquote>
+    <div class="blk"><h4>¿Qué enseña?</h4><p>Santiago junta confesar las ofensas y orar unos por otros. La reconciliación y la intercesión se necesitan: una sana las relaciones y la otra sostiene a los hermanos.</p></div>
+    <div class="blk"><h4>Mi reflexión</h4><p>Este versículo resume bien las dos tareas. Me enseña que una comunidad sana es donde se reconocen los errores con humildad y se ora con sinceridad.</p></div>
+    <div class="blk"><h4>Qué aplico a mi vida</h4><p>Ser humilde para reconocer mis faltas y fiel para orar por mis hermanos.</p></div>
+  </article>
+</section>
+
+<!-- REFLEXIÓN (conclusión de intercesión) -->
+<section id="reflexion" class="sec">
+  <p class="num rv">03 — Reflexión</p>
+  <h2 class="h2 rv">Por qué importa la intercesión</h2>
+  <div class="glass card3d rv">
+    <p>Después de estudiar estos cinco textos, entiendo que la intercesión es una forma de amor práctico. Abraham pidió por otros, Jesús oró por quienes lo lastimaban, Pablo la puso como prioridad y Santiago la unió al perdón.</p>
+    <p>Orar por alguien cambia primero mi propio corazón: me saca del egoísmo, me da compasión y me enseña a depender de Dios. Y también me recuerda que nadie debería caminar solo, porque otros también interceden por mí.</p>
+  </div>
+</section>
+
+<!-- CONCLUSIÓN -->
+<section id="conclusion" class="sec final">
+  <div class="light" aria-hidden="true"></div>
+  <p class="num rv">04 — Conclusión</p>
+  <h2 class="title2 rv">Reflexión final</h2>
+  <div class="chain rv"><span>Reconciliación</span><i>+</i><span>Perdón</span><i>+</i><span>Intercesión</span><i>+</i><span>Oración</span></div>
+  <p class="lead rv">Esta tarea me dejó claro que no necesito un conflicto para practicar la reconciliación. Puedo vivir preparado: perdonando rápido, pidiendo perdón con humildad y orando por los demás.</p>
+  <p class="lead rv">Quiero que mi crecimiento espiritual se note en cómo trato a las personas y en las oraciones que hago cuando nadie me ve.</p>
+  <p class="quote rv">“Que nuestra vida sea una expresión de amor, perdón y oración por los demás.”</p>
+  <p class="sign rv">Instituto de Liderazgo al Mundo</p>
+</section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
